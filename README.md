@@ -13,18 +13,3 @@ General
     The prototypes of all your functions should be included in your header file called binary_trees.h
     Don’t forget to push your header file
     All your header files should be include guarded
-
-Algorithm
-
-1. START
-2. Check whether the tree is empty or not
-3. If the tree is empty, search is not possible
-4. Otherwise, first search the root of the tree.
-5. If the key does not match with the value in the root, 
-   search its subtrees.
-6. If the value of the key is less than the root value, 
-   search the left subtree
-7. If the value of the key is greater than the root value, 
-   search the right subtree.
-8. If the key is not found in the tree, return unsuccessful search.
-9. END
