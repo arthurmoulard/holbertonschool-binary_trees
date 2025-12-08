@@ -2,7 +2,8 @@
 /**
  * binary_tree_node - a function that create a binary three node
  * @value is the value to put in the new node
- * 
+ * @parent is a pointer to the parent node
+ * Return new_node
  */
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 {
