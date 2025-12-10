@@ -2,6 +2,7 @@
 /**
  * binary_tree_height - a function that count the height of the tree
  * @size_t: the size of each node side
+ * @tree: is a pointer to the root node of the tree to measure the height
  * Return: the height of the tree
  */
 size_t binary_tree_height(const binary_tree_t *tree)
